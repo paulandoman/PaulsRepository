@@ -33,7 +33,7 @@ group :assets do
   gem 'zurb-foundation', '~> 4.0.0'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', "~> 2.3.0"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -53,3 +53,6 @@ gem 'jquery-rails'
 group :test do
 	gem 'capybara'
 end
+
+gem 'activeadmin'
+gem 'meta_search', '>= 1.1.0.pre'

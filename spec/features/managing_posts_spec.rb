@@ -17,7 +17,7 @@ feature 'Managing blog posts' do
     expect(page).to have_content 'New post'
 
     fill_in 'Title', :with => 'I love cheese'
-    fill_in 'Body', :with => "It's pretty amazing, don't you think?"
+    fill_in 'Body', :with => 'Its pretty amazing, dont you think?'
 
     click_button 'Create Post'
     expect(page).to have_content 'I love cheese'
